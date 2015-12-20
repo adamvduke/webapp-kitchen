@@ -31,3 +31,7 @@ include_recipe 'firewall::default'
 
 node.set['users'] = ['adamd']
 include_recipe 'user::data_bag'
+
+node.set['authorization']['sudo']['groups'] = ['admin']
+node.set['authorization']['sudo']['passwordless'] = true
+include_recipe 'sudo::default'
