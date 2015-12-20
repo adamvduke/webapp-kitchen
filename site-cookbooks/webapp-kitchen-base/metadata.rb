@@ -8,6 +8,8 @@ version          '0.1.0'
 
 depends 'apt'
 depends 'firewall'
+depends 'ntp'
 depends 'openssh'
 depends 'sudo'
+depends 'timezone'
 depends 'user'

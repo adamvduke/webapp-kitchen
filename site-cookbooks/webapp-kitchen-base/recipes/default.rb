@@ -39,3 +39,6 @@ include_recipe 'sudo::default'
 node.set['openssh']['server']['permit_root_login'] = 'no'
 node.set['openssh']['server']['password_authentication'] = 'no'
 include_recipe 'openssh::default'
+
+include_recipe 'ntp::default'
+include_recipe 'timezone::default'

@@ -1,19 +1,27 @@
 DEPENDENCIES
   apt
   firewall
+  ntp
   openssh
   sudo
+  timezone
   user
 
 GRAPH
   apt (2.9.2)
   chef-sugar (3.2.0)
+  chef_handler (1.2.0)
   compat_resource (12.5.26)
   firewall (2.2.0)
     chef-sugar (>= 0.0.0)
   iptables (2.0.1)
     compat_resource (>= 0.0.0)
+  ntp (1.9.0)
+    windows (>= 0.0.0)
   openssh (1.5.2)
     iptables (>= 0.0.0)
   sudo (2.7.2)
+  timezone (0.0.1)
   user (0.4.2)
+  windows (1.38.4)
+    chef_handler (>= 0.0.0)
