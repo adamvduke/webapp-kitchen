@@ -8,5 +8,6 @@ version          '0.1.0'
 
 depends 'apt'
 depends 'firewall'
+depends 'openssh'
 depends 'sudo'
 depends 'user'

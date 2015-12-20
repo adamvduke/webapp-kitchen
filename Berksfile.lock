@@ -1,13 +1,19 @@
 DEPENDENCIES
   apt
   firewall
+  openssh
   sudo
   user
 
 GRAPH
   apt (2.9.2)
   chef-sugar (3.2.0)
+  compat_resource (12.5.26)
   firewall (2.2.0)
     chef-sugar (>= 0.0.0)
+  iptables (2.0.1)
+    compat_resource (>= 0.0.0)
+  openssh (1.5.2)
+    iptables (>= 0.0.0)
   sudo (2.7.2)
   user (0.4.2)
