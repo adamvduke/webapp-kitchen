@@ -1,9 +1,11 @@
 DEPENDENCIES
   apt
   firewall
+  user
 
 GRAPH
   apt (2.9.2)
   chef-sugar (3.2.0)
   firewall (2.2.0)
     chef-sugar (>= 0.0.0)
+  user (0.4.2)

@@ -1,0 +1,11 @@
+{
+  "id": "adamd",
+  "comment": "Adam Duke",
+  "home": "/home/adamd",
+  "groups": [
+    "admin"
+  ],
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCf3MZCGV/9qoMYdcTJmNE4T+lciYygcImOy6B45/Gt14fGovvdREjSpD9/FK29DwyIEHnB0vIk4i3ptiLagiYVhZvd/b9kQbLyKl4h19eaHDiFunowaNtiK0/SpeMmEtpF17EWw+USZ/Qe6oRnT0p4JMKOvmQwqfnBn8hC5clHzsO8IYfqHuR4ygTgUwSxbPnyDtOJhsFb/8zFhhiBDcQOjG7y7MfiSDB9gWMBwPN8IXVSNe2CFY0+0pAm0RRltpPD0LJJ3Z4S8CptasVFT68e4X4Rg9NLFpGkvSHss0xBPATmqnSo4xRkp4rDu/MF9ePKwuzKUyndqmrZ6HmXdo6l adam.v.duke+parabola@gmail.com"
+  ]
+}

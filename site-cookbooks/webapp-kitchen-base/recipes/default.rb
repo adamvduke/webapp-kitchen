@@ -28,3 +28,6 @@ include_recipe 'apt::default'
 
 node.set['firewall']['allow_ssh'] = true
 include_recipe 'firewall::default'
+
+node.set['users'] = ['adamd']
+include_recipe 'user::data_bag'
